@@ -15,36 +15,7 @@
       <ion-label position="stacked">Correo</ion-label>
       <ion-input [(ngModel)]="correo" placeholder="Ejemplo: ana@utp.edu.pe"></ion-input>
     </ion-item>
-    <ion-item>
-      <ion-label position="stacked">Nombre</ion-label>
-      <ion-input [(ngModel)]="nombre" placeholder="Ingrese su nombre">
-      </ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="stacked">Correo</ion-label>
-      <ion-input [(ngModel)]="correo" placeholder="Ingrese su correo">
-      </ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label position="stacked">Tipo de aplicación</ion-label>
-      <ion-select [(ngModel)]="tipoApp" placeholder="Seleccione una opción">
-        <ion-select-option value="academica">
-          App académica
-        </ion-select-option>
-        <ion-select-option value="ventas">
-          App de ventas
-        </ion-select-option>
-        <ion-select-option value="soporte">
-          App de soporte
-        </ion-select-option>
-      </ion-select>
-    </ion-item>
-    <ion-button expand="block" color="danger" (click)="validarRegistro()">
-      Validar registro
-    </ion-button>
-    <ion-button expand="block" fill="outline" color="medium" (click)="limpiar()">
-      Limpiar
-    </ion-button>
+
     <ion-item>
       <ion-label position="stacked">Tipo de aplicación</ion-label>
       <ion-select [(ngModel)]="tipoApp" placeholder="Seleccione una opción">
@@ -53,6 +24,7 @@
         <ion-select-option value="Soporte">App de soporte</ion-select-option>
       </ion-select>
     </ion-item>
+
     <ion-button expand="block" color="danger" class="boton-principal" (click)="validarRegistro()">Validar
       registro</ion-button>
     <ion-button expand="block" fill="outline" color="medium" (click)="limpiar()">Limpiar</ion-button>
