@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://github.com/Nakusuo"><img src="https://raw.githubusercontent.com/Nakusuo/Nakusuo/main/assets/covers/Semana-11-appMovil.svg" width="100%" alt="Semana-11-appMovil — Nakusu"/></a>
+</p>
+
 # Registro UTP · Semana 11
 
 Mi primera **app móvil híbrida**: un formulario de registro hecho con **Ionic + Angular** que revisa los datos antes de dejarte continuar. La hice para la semana 11 del curso, y con Capacitor se puede instalar en Android.
